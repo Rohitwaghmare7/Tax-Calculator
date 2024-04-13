@@ -1,0 +1,40 @@
+.error-icon {
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%); 
+    cursor: pointer; 
+}
+
+#taxCalculatorForm label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#taxCalculatorForm input,
+#taxCalculatorForm select {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+#taxCalculatorForm .form-group {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
